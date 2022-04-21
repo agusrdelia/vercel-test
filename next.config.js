@@ -6,7 +6,7 @@ const nextConfig = {
       beforeFiles: [
         {
           source: "/category/:path*",
-          destination: "/section/:path*",
+          destination: "/section",
         },
       ],
     };
